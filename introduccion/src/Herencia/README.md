@@ -20,6 +20,8 @@ operación. Aunque sí para utilizar en un futuro es necesario sobreescribir el 
 hashCode y equals, tanto en nave como en asteroide. Se diseñaron las siguientes clases.
 Cómo sería su implementación en Java:
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-programacion-orientada-objetos/main/introduccion/src/Herencia/Captura.PNG)
+
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)
 
