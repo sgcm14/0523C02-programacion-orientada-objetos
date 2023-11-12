@@ -19,7 +19,7 @@ El problema planteado es solo resolver el movimiento, no es necesario resolver o
 operación. Aunque sí para utilizar en un futuro es necesario sobreescribir el toString, hashCode y equals, tanto en nave como en asteroide. Se diseñaron las siguientes clases.
 Cómo sería su implementación en Java:
 
-![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/Herencia/Captura.PNG)
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/herencia/juego/Captura.PNG)
 
 
 **Realizado por :** Sammy Gigi Cantoral Montejo (sgcm14)

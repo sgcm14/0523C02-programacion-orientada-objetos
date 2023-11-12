@@ -9,7 +9,7 @@ Supongamos que hay que modelar un juego mobile de guerra/estrategia en tiempo re
 “Batalla del futuro”. Entre las clases del juego, tendremos los diferentes tipos y sus
 características. El primer paso, es definir un robot con sus operaciones básicas:
 
-imagennnn
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/interface_/armas/Captura.PNG)
 
 Lo primero que podemos hacer es crear una clase SistemaArmas, con las operaciones
 comunes: atacar, defender y mostrarse (en pantalla, con sus datos). Supongamos que una
