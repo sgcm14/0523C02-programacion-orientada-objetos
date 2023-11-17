@@ -1,4 +1,4 @@
-package colecciones;
+package colecciones.cuenta;
 
 import java.util.ArrayList;
 

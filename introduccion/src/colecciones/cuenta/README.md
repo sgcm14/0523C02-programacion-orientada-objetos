@@ -4,7 +4,7 @@
 
 Programar en Java una solución al siguiente diagrama UML utilizando la colección ArrayList.
 
-![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/colecciones/Captura.PNG)
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/colecciones/cuenta/Captura.PNG)
 
 **Consideraciones:**
 

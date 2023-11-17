@@ -1,4 +1,4 @@
-package colecciones;
+package colecciones.cuenta;
 
 public class Cuenta implements Comparable<Cuenta> {
 
