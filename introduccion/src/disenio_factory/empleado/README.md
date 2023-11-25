@@ -9,6 +9,8 @@ Modelar y programar en Java la implementación del Patrón de Diseño Factory.
 
 Dada la siguiente familia de clases, se te encomienda el desafío de optimizar el diseño, teniendo en cuenta que necesitamos construir objetos de estas clases a partir de diferentes parámetros establecidos.
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_factory/empleado/Captura.PNG)
+
 Si recibimos como parámetro “EMP-RD” deberás poder construir un objeto de la clase EmpleadoRelacionDependencia con un sueldo de 1000 dolares y si el parámetro es “EMP-PH” deberás poder construir un objeto de la clase EmpleadoContratado con un importe por hora de 7 dólares y una retención impuesto de 14%.
 
 Basado en el enunciado realizar:

@@ -10,6 +10,8 @@ Modelar y programar en Java la implementación del Patrón de Diseño Factory.
 Dada la siguiente familia de clases, se te encomienda el desafío de optimizar el diseño,
 teniendo en cuenta que necesitamos construir objetos de estas clases a partir de diferentes parámetros recibidos.
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_factory/producto/Captura.PNG)
+
 Si recibimos como parámetro “CAJA10X10” deberás poder construir un objeto de la clase
 Caja que tenga una longitud, ancho y altura de 10 cm. Si el parámetro es “PELOTAFUTBOL”
 deberás poder construir un objeto de la clase pelota cuyo radio sea de 11 cm, tamaño del radio de una pelota de fútbol. Si se recibe como parámetro
