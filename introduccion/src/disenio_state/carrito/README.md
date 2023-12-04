@@ -4,9 +4,13 @@ Patrón State:
 **Carrito de compras:**
 
 Se desea modelar un carrito de compras siguiendo los siguientes lineamientos:
+
 ● El carrito tiene un estado y un conjunto de productos.
+
 ● Cada producto tiene solamente descripción y precio.
+
 ● Puede estar en alguno de los siguientes estados (solo uno a la vez):
+
 - Vacío.
 - Cargando.
 - Pagando.
@@ -14,14 +18,19 @@ Se desea modelar un carrito de compras siguiendo los siguientes lineamientos:
 
 También, se le pueden indicar las siguientes
 instrucciones:
-● Agregar un producto al carrito
-(pasándole como parámetro al método
-un objeto de tipo producto).
+
+● Agregar un producto al carrito (pasándole como parámetro al método un objeto de tipo producto).
+
 ● Cancelar el carrito (vuelve a estar vacío).
+
 ● Volver al punto anterior ( salvo que esté cerrado).
+
 ● Pasar al siguiente estado (en el caso de estar cerrado, vuelve a estar vacío).
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_state/carrito/diagrama.PNG)
+
 ¿Y ahora?
+
 Vamos a realizar el diagrama de clases y el código Java necesario para representar el
 modelo enunciado.
 

@@ -15,11 +15,18 @@ Puede estar en alguno de los siguientes estados (solo uno a la vez):
 4. Sediento.
 
 Se le pueden dar los siguientes estímulos:
+
 ● Darle de beber
+
 ● Darle de comer
+
 ● Hacerle mimos
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_state/tamagotchi/tabla.PNG)
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_state/tamagotchi/diagrama.PNG)
+
 Y ahora???
+
 Vamos a realizar el diagrama de clases y el código Java necesario para representar el
 modelo enunciado sin tomar en cuenta lo que ocurre en el display ni los beeps.
 
