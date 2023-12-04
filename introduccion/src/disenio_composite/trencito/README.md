@@ -10,6 +10,8 @@ Las figuras simples serán **rectángulos, círculos y triángulos** los cuales 
 pueden combinar para formar elementos más complejos (compuestos) como
 **locomotoras y vagones**:
 
+![](https://raw.githubusercontent.com/sgcm14/0523C02-proyectos-java/main/introduccion/src/disenio_composite/trencito/imagen.PNG)
+
 ● Rectángulos dados por alto y largo. (Area = alto * largo)
 
 ● Círculos por su radio. (Area = radio * radio * pi)

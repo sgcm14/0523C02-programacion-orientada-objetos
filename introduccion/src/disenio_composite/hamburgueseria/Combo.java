@@ -11,6 +11,7 @@ public class Combo extends Producto{
 //es decir el combo cuesta en un principio 0;
     }
    public void agregarProducto(Producto producto){
+
         productos.add(producto);
    }
 
