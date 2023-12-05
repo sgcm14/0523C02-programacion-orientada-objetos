@@ -5,7 +5,7 @@ import java.util.List;
 
 public class Carrito {
     private EstadoCarrito estado;
-    private List<Productos> listaProductos;
+    private List<Producto> listaProductos;
 
     public void setEstado(EstadoCarrito estado) {
         this.estado = estado;
@@ -16,7 +16,7 @@ public class Carrito {
         this.listaProductos = new ArrayList<>();
     }
 
-    public void agregarProducto(Productos producto){
+    public void agregarProducto(Producto producto){
         if(estado instanceof Vacio){
             estado = new Cargando();
         }

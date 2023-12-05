@@ -3,11 +3,11 @@ package disenio_composite.instituto_sistema;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Carreras  extends Curso{
+public class Carrera extends Curso{
     private double costoBasico;
     private List<Curso> cursosYTalleres = new ArrayList<>();
 
-    public Carreras(String nombre, String descripcion, double costoBasico) {
+    public Carrera(String nombre, String descripcion, double costoBasico) {
         super(nombre, descripcion, 0, 0, 0);
         this.costoBasico = costoBasico;
     }

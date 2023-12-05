@@ -3,12 +3,12 @@ package agregacion.bicicleta;
 public class Triciclo {
     private Rueda ruedaDelantera;
     private Rueda ruedaTrasera;
-    private Pedales pedales;
-    private Frenos frenos;
+    private Pedal pedales;
+    private Freno frenos;
     private Chasis chasis;
 
     // Constructor del triciclo que recibe los componentes de la bicicleta
-    public Triciclo(Rueda ruedaDelantera, Rueda ruedaTrasera, Pedales pedales, Frenos frenos, Chasis chasis) {
+    public Triciclo(Rueda ruedaDelantera, Rueda ruedaTrasera, Pedal pedales, Freno frenos, Chasis chasis) {
         this.ruedaDelantera = ruedaDelantera;
         this.ruedaTrasera = ruedaTrasera;
         this.pedales = pedales;

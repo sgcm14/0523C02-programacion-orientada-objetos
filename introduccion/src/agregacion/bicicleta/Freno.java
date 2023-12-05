@@ -1,10 +1,9 @@
 package agregacion.bicicleta;
 
-public class Pedales {
+public class Freno {
     private String tipo;
 
-    public Pedales(String tipo) {
+    public Freno(String tipo) {
         this.tipo = tipo;
     }
-
 }

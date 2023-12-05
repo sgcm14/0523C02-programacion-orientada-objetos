@@ -4,8 +4,8 @@ import java.util.List;
 
 public class TestInstituto {
     public static void main(String[] args) {
-        Curso frontEnd = new frontend("Front End", "Curso de Front End", 16, 2, 1000);
-        Curso backEnd = new backend("Back End", "Curso de Back End", 20, 2, 900);
+        Curso frontEnd = new Frontend("Front End", "Curso de Front End", 16, 2, 1000);
+        Curso backEnd = new Backend("Back End", "Curso de Back End", 20, 2, 900);
 
         ProgramaIntensivo fullStack = new ProgramaIntensivo("FullStack", "Programa Full Stack", 20);
 
@@ -13,13 +13,13 @@ public class TestInstituto {
         fullStack.agregarCurso(backEnd);
 
 
-        TalleresIntensivos tallerJava = new TalleresIntensivos("Taller de Java", "Aprende Java con prácticos", 10, 500);
-        TalleresIntensivos tallerPython = new TalleresIntensivos("Taller de Python", "Aprende Python con prácticos", 8, 450);
+        TallerIntensivo tallerJava = new TallerIntensivo("Taller de Java", "Aprende Java con prácticos", 10, 500);
+        TallerIntensivo tallerPython = new TallerIntensivo("Taller de Python", "Aprende Python con prácticos", 8, 450);
 
-        Carreras ingenieriaInformatica = new Carreras("Ingeniería Informática", "Carrera de Ingeniería Informática", 5000);
+        Carrera ingenieriaInformatica = new Carrera("Ingeniería Informática", "Carrera de Ingeniería Informática", 5000);
 
-        ingenieriaInformatica.agregarCursoOTaller(new introduccionProgramacion("Introducción a la Programación", "Curso introductorio", 12, 2, 800));
-        ingenieriaInformatica.agregarCursoOTaller(new estructuraDatos("Estructuras de Datos", "Curso avanzado", 15, 3, 1000));
+        ingenieriaInformatica.agregarCursoOTaller(new IntroduccionProgramacion("Introducción a la Programación", "Curso introductorio", 12, 2, 800));
+        ingenieriaInformatica.agregarCursoOTaller(new EstructuraDatos("Estructuras de Datos", "Curso avanzado", 15, 3, 1000));
         ingenieriaInformatica.agregarCursoOTaller(tallerJava);
         ingenieriaInformatica.agregarCursoOTaller(tallerPython);
 
@@ -39,8 +39,8 @@ public class TestInstituto {
         System.out.println("Descripción: " + curso.getDescripcion());
         System.out.println("Precio: " + curso.calcularPrecio() + " pesos");
 
-        if (curso instanceof Carreras) {
-            Carreras carrera = (Carreras) curso;
+        if (curso instanceof Carrera) {
+            Carrera carrera = (Carrera) curso;
             List<Curso> cursosYTalleres = carrera.getCursosYTalleres();
 
             if (!cursosYTalleres.isEmpty()) {

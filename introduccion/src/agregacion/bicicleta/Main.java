@@ -11,8 +11,8 @@ public class Main {
         // Desarmar la bicicleta
         Rueda ruedaDelantera = bicicleta.getRuedaDelantera();
         Rueda ruedaTrasera = bicicleta.getRuedaTrasera();
-        Pedales pedales = bicicleta.getPedales();
-        Frenos frenos = bicicleta.getFrenos();
+        Pedal pedales = bicicleta.getPedales();
+        Freno frenos = bicicleta.getFrenos();
         Chasis chasis = bicicleta.getChasis();
 
         // Los componentes individuales pueden ser utilizados en otro contexto

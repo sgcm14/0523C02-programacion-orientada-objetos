@@ -2,7 +2,7 @@ package disenio_composite.hamburgueseria;
 
 public class Cliente {
     public static void main(String[] args) {
-        Producto producto1= new Hamburgesa("BigMacDH",10.0);
+        Producto producto1= new Hamburguesa("BigMacDH",10.0);
         Producto producto2= new Acompanamiento("Papa Cheddar",5.0);
 
 
