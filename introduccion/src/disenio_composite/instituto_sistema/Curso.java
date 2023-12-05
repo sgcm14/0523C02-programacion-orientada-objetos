@@ -1,6 +1,6 @@
 package disenio_composite.instituto_sistema;
 
-public class Curso {
+public abstract class Curso {
     private String nombre;
     private String descripcion;
 

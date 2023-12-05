@@ -4,8 +4,8 @@ import java.util.List;
 
 public class TestInstituto {
     public static void main(String[] args) {
-        Curso frontEnd = new Curso("Front End", "Curso de Front End", 16, 2, 1000);
-        Curso backEnd = new Curso("Back End", "Curso de Back End", 20, 2, 900);
+        Curso frontEnd = new frontend("Front End", "Curso de Front End", 16, 2, 1000);
+        Curso backEnd = new backend("Back End", "Curso de Back End", 20, 2, 900);
 
         ProgramaIntensivo fullStack = new ProgramaIntensivo("FullStack", "Programa Full Stack", 20);
 
@@ -18,8 +18,8 @@ public class TestInstituto {
 
         Carreras ingenieriaInformatica = new Carreras("Ingeniería Informática", "Carrera de Ingeniería Informática", 5000);
 
-        ingenieriaInformatica.agregarCursoOTaller(new Curso("Introducción a la Programación", "Curso introductorio", 12, 2, 800));
-        ingenieriaInformatica.agregarCursoOTaller(new Curso("Estructuras de Datos", "Curso avanzado", 15, 3, 1000));
+        ingenieriaInformatica.agregarCursoOTaller(new introduccionProgramacion("Introducción a la Programación", "Curso introductorio", 12, 2, 800));
+        ingenieriaInformatica.agregarCursoOTaller(new estructuraDatos("Estructuras de Datos", "Curso avanzado", 15, 3, 1000));
         ingenieriaInformatica.agregarCursoOTaller(tallerJava);
         ingenieriaInformatica.agregarCursoOTaller(tallerPython);
 
